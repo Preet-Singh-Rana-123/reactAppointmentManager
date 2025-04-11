@@ -15,12 +15,6 @@ A simple appointment tracking app built using **React** and **Vite**. Add appoin
 - [Vite](https://vitejs.dev/)
 - Tailwind CSS (for styling)
 
-## 📸 Screenshots
-
-| Add Appointment | View Appointments |
-|-----------------|------------------|
-| ![Add](./src/assets/apointment-app.png) | (Add your own screenshot of the list) |
-
 ## 🧑‍💻 Getting Started
 
 ### 1. Clone the repo
@@ -28,3 +22,33 @@ A simple appointment tracking app built using **React** and **Vite**. Add appoin
 ```bash
 git clone https://github.com/your-username/appointment-manager.git
 cd appointment-manager
+npm install
+npm run dev
+```
+
+## 🗂️ Project Structure
+
+```bash
+src/
+├── assets/               # Images and static files
+├── components/
+│   └── Card.jsx          # Card component for appointments
+├── App.jsx               # Main app component
+└── main.jsx              # Entry point
+```
+
+## ✅ To Do (Enhancements)
+
+- ✏️ Edit existing appointments  
+- ❌ Delete appointments  
+- 📅 Sort appointments by date  
+- 💾 Persist appointments using localStorage or backend  
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+Made with 💜 by [Preet Singh Rana](https://github.com/Preet-Singh-Rana-123)
+
